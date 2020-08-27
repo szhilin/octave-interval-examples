@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/szhilin/octave-interval-examples/master/
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/szhilin/octave-interval-examples/master/)
 
 # Примеры интервальных вычислений в Octave
 
