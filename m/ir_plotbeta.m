@@ -56,7 +56,7 @@ if numel(epsilon)==1
 endif
  
 ## Calculate vertecies of feasibile parameters set
-vertices = ir_beta2poly(irproblem)
+vertices = ir_beta2poly(irproblem);
  
 actobs = [];
 

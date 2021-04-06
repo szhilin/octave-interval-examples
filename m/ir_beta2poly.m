@@ -64,6 +64,7 @@ beq = d(Sidx);
 [A,b,Aeq,beq] = addBounds(A,b,Aeq,beq,lb,ub);
  
 ## Calculate vertices of feasibile parameters set
+warning('off', 'Octave:colon-nonscalar-argument');
 [V,nr] = lcon2vert(A,b,Aeq,beq); 
 
 if size(V,2) == 1
