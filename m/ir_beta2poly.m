@@ -67,10 +67,15 @@ beq = d(Sidx);
 warning('off', 'Octave:colon-nonscalar-argument');
 [V,nr] = lcon2vert(A,b,Aeq,beq); 
 
-if size(V,2) == 1
+dim = size(V,2);
+if dim == 1
   k = nr;
+elseif dim == 2  
+  k = convhull(V(:,1),V(:,2));
+  k = k(1:end-1);
 else
-  k = convhull(V);
+  h = convhulln(V);
+  k = unique(h(:));   
 endif
 
 vertices = V(k,:);

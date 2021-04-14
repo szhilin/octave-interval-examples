@@ -57,6 +57,7 @@ endif
  
 ## Calculate vertecies of feasibile parameters set
 vertices = ir_beta2poly(irproblem);
+vertices = [vertices; vertices(1,:)];
  
 actobs = [];
 
