@@ -1,4 +1,0 @@
-octave
-octave-interval
-gnuplot
-ghostscript
