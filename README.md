@@ -2,4 +2,4 @@
 
 Сборник jupyter-блокнотов с примерами анализа интервальных данных..
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/szhilin/binder-box-octave/master?urlpath=git-pull?repo=https://github.com/szhilin/octave-interval-examples&urlpath=octave-interval-examples/index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/szhilin/binder-box-octave/master?urlpath=git-pull?repo=https://github.com/szhilin/octave-interval-examples&urlpath=tree/octave-interval-examples/index.ipynb)
