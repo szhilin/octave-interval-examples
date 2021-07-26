@@ -79,7 +79,7 @@ function ir_plotmodelset(irproblem, xlimits)
    Xp = [Xbefore; X; Xafter];
 
    x = Xp(:,xcol);
-   [yp, betap, exitcode] = ir_predict(Xp, irproblem);
+   [yp, betap, exitcode] = ir_predict(irproblem, Xp);
    px = [x; flipud(x)];
    py = [yp(:,1); flipud(yp(:,2))];
    pcolor = [250 197 250]/255;

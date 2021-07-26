@@ -62,7 +62,7 @@
 ##
 ## @end deftypefn
 
-function [yp, betap, exitcode, active] = ir_predict(Xp, irproblem)
+function [yp, betap, exitcode, active] = ir_predict(irproblem, Xp)
 
 SIGNIFICANT = 0.00000001;
 
